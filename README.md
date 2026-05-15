@@ -1,4 +1,3 @@
-# Project-ATS
 # SpotifUM Testing Audit - Tomás Machado (A104186)
 
 Este projeto contém a auditoria de testes e análise de software do sistema SpotifUM.

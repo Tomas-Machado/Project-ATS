@@ -28,3 +28,22 @@ mvn pitest:mutationCoverage
 
 ## Nota sobre EvoSuite
 Os testes do EvoSuite foram gerados num ambiente isolado (Java 8) para compatibilidade e encontram-se na pasta `evosuite_results` como evidência da auditoria técnica.
+
+Para automatizar a execução de toda a suite de testes e geração de relatórios de cobertura e mutação, basta executar o script incluído: 
+Primeiro executar o seguinte comando:
+
+```bash
+chmod +x run_audit.sh
+```
+
+e depois executa-se
+
+```bash
+sh run_audit.sh
+```
+
+ou 
+
+```bash
+./run_audit.sh
+```
